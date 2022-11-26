@@ -1,0 +1,132 @@
+body{
+    background-color: #EDEFEE;    
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+header > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    margin-bottom: 2em;
+}
+nav{
+    background-image: url(littlelemon-bg1.jpg);
+    background-size: contain;
+    padding: 1em 0em;
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color:#3f4927;
+    padding: 1em;
+}
+nav li{
+    display: inline-block;
+    background-color: #EDEFEE;
+}
+nav li a{
+    padding: 1em;
+    color: rgb(39, 53, 44);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+nav li a::before{
+    content: "<> ";
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section.banner{
+    background: linear-gradient(0deg, rgba(52, 70, 25, 0.86), rgba(0, 0, 0, 0.4)), url(banner3.jpeg);
+    background-size: cover;
+    color: #EDEFEE;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+article{
+    flex: 1;
+    flex: 33.33%;
+}
+article.content{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+article.content:nth-child(1){
+    background-color: #3f4927;
+    margin-right: 1em;
+    text-align: center;
+    padding: 0.5em;
+    color: #EDEFEE;
+}
+article.content:nth-child(1), article.content:nth-child(2), article.content:nth-last-child(1){
+    background-color: #3f4927;
+    margin-right: 1em;
+    text-align: center;
+}
+article.content img.contentimg{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto auto 0;
+}
+
+article.content:nth-child(2){
+    margin-right: 1em;
+    text-align: center;
+    padding: 0.5em;
+    color: #3f4927;
+    background-color: #EDEFEE;
+}
+article.content:nth-last-child(1){
+    background-color: #3f4927;
+    text-align: center;
+    padding: 0.5em;
+    color: #EDEFEE;
+}
+article.content table{
+    margin: auto;
+    color: #EDEFEE;
+    padding: 1em;
+}
+article table th{
+    text-align: right;
+    padding: 0.5em;
+}
+footer{
+    display: flex;
+    margin-top: 2em;
+}
+footer div{
+    flex: 1;
+}
+footer div img{
+    width: 4em;
+}
+footer div.copyright{
+    border-top: 2px solid #3f4927;
+}
+footer div p{
+    float: right;
+}
