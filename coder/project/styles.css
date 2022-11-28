@@ -26,7 +26,7 @@ nav{
     /* background-image: url(littlelemon-bg1.jpg);
     background-size: contain; */
     padding: 1em 0em;
-    background: linear-gradient(180deg, rgb(52 70 25 / 86%), transparent)
+    background: linear-gradient(180deg, rgb(202 183 59), transparent)
 }
 nav ul{
     list-style: none;
@@ -57,11 +57,12 @@ section{
 }
 section.banner{
     /* background: linear-gradient(0deg, rgba(52, 70, 25, 0.86), rgba(0, 0, 0, 0.4)), url(banner3.jpeg); */
-    background: url(banner3.jpeg);
+    background: url(banner51.jpeg);
     background-size: cover;
     color: #EDEFEE;
-    margin-bottom: 2em;
-    height: 400px;
+    margin-bottom: 4em;
+    height: 550px;
+    text-align: -webkit-center;
 }
 section.banner article{
     padding: 2em;
@@ -70,10 +71,13 @@ section.banner article h1{
     background-color:#3f4927;
     padding: 1em;
     width: max-content;
+    font-variant-caps: small-caps;
+    font-size: 1.7em;
 }
 section.banner article p{
     background-color:#3f4927;
     padding: 1em;
+    width: max-content;
 }
 article{
     flex: 1;
@@ -86,14 +90,12 @@ article.content{
 }
 article.content:nth-child(1){
     background-color: #3f4927;
-    margin-right: 1em;
     text-align: center;
-    padding: 0.5em;
+    padding: 1em;
     color: #EDEFEE;
 }
 article.content:nth-child(1){
     background-color: #3f4927;
-    margin-right: 1em;
     text-align: center;
 }
 article.content:nth-last-child(1){
@@ -114,16 +116,14 @@ article.content img.contentimg{
 }
 
 article.content:nth-child(2){
-    margin-right: 1em;
     text-align: center;
-    padding: 0.5em;
+    padding: 1em;
     color: #3f4927;
-    background-color: #EDEFEE;
 }
 article.content:nth-last-child(1){
     background-color: #3f4927;
     text-align: center;
-    padding: 0.5em;
+    padding: 1em;
     color: #EDEFEE;
 }
 article.content table{
