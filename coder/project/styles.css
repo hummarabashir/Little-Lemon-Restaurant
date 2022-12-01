@@ -25,25 +25,25 @@ header > img{
 nav{
     /* background-image: url(littlelemon-bg1.jpg);
     background-size: contain; */
-    padding: 1em 0em;
+    padding-top: 1em;
     background: linear-gradient(180deg, rgb(202 183 59), transparent)
 }
 nav ul{
     list-style: none;
     text-align: center;
     /* background-color:#3f4927; */
-    padding: 1em;
+    padding-top: 1em;
 }
 nav li{
     display: inline-block;
     /* background-color: #EDEFEE; */
 }
 nav li a{
-    padding: 1em;
+    padding: 0em 2em;
     color: rgb(39, 53, 44);
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
 }
 nav li a::before{
@@ -55,14 +55,21 @@ section{
     flex-wrap: wrap;
     width: 100%;
 }
+main{
+    text-align: -webkit-center;;
+}
 section.banner{
     /* background: linear-gradient(0deg, rgba(52, 70, 25, 0.86), rgba(0, 0, 0, 0.4)), url(banner3.jpeg); */
-    background: url(banner51.jpeg);
-    background-size: cover;
+    background: url(banner1.jpeg);
+    background-size: contain;
     color: #EDEFEE;
-    margin-bottom: 4em;
-    height: 550px;
-    text-align: -webkit-center;
+    height: 410px;
+    text-align: -webkit-left;
+}
+main .bannerside{
+    width: 200px;
+    margin-top: -55px;
+    margin-bottom: 1em;
 }
 section.banner article{
     padding: 2em;
@@ -78,6 +85,24 @@ section.banner article p{
     background-color:#3f4927;
     padding: 1em;
     width: max-content;
+}
+section.banner article .clip{
+    height: 4rem;
+    width: 12rem;
+    clip-path: polygon(
+        2rem 0,
+        calc(100% + 2rem) 0,
+        calc(100% - 2rem) 100%,
+        -2rem 100%
+    );
+    background-color: #f8d300;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+section.banner article .clip:hover{
+    background-color: #3f4927;
+    color: #EDEFEE;
 }
 article{
     flex: 1;
@@ -148,5 +173,5 @@ footer div.copyright{
     border-top: 2px solid #3f4927;
 }
 footer div p{
-    float: right;
+text-align: right;
 }
