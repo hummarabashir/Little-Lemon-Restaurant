@@ -1,5 +1,5 @@
 <div align="center">
-<img width="64px" src="./doc/images/favicon.ico" alt="lemon icon"/> 
+<img width="64px" src="favicon.ico" alt="lemon icon"/> 
   
 </div>
 
