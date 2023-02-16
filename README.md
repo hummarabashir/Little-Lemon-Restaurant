@@ -9,8 +9,12 @@
 <img src="littlelemon2.png" alt="Little Lemon"/>
 <img src="littlelemon1.png" alt="LL"/>
 <div style="display:inline-flex">
-<img width="500px" src="littlelemon11.gif" alt="Little Lemon"/>
-<img width="500px" src="littlelemon22.gif" alt="Little Lemon"/>
+<table>
+  <tr>
+    <td valign="top"><img src="littlelemon11.gif" alt="Little Lemon"/></td>
+    <td valign="top"><img src="littlelemon22.gif" alt="Little Lemon"/></td>
+  </tr>
+</table>
 </div>
 </div>
 
