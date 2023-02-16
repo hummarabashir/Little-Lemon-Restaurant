@@ -8,14 +8,12 @@
 <img src="Little Lemon.png" alt="Little Lemon"/>
 <img src="littlelemon2.png" alt="Little Lemon"/>
 <img src="littlelemon1.png" alt="LL"/>
-<div style="display:inline-flex">
 <table>
   <tr>
     <td valign="top"><img src="littlelemon11.gif" alt="Little Lemon"/></td>
     <td valign="top"><img src="littlelemon22.gif" alt="Little Lemon"/></td>
   </tr>
 </table>
-</div>
 </div>
 
 <hr/>
